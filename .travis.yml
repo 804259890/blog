@@ -14,6 +14,7 @@ script:
 
 after_script:
   - cd ./public
+  - cat index.html
   - git init
   - git config user.name "804259890"
   - git config user.email "804259890@qq.com"
