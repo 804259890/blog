@@ -19,12 +19,9 @@ after_script:
   - git config user.email "804259890@qq.com"
   - git add .
   - git commit -m "Update docs"
-  - git push --force --quiet "https://blog@${GH_REF}" master:master
+  - git push --force --quiet "https://blog@github.com/804259890/blog.git" master:master
 # E: Build LifeCycle
 
 branches:
   only:
     - blog-source
-env:
- global:
-   - GH_REF: github.com/804259890/blog.git
