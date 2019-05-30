@@ -21,7 +21,3 @@ after_script:
   - git commit -m "Update docs"
   - git push --force "https://blog@github.com/804259890/blog.git" master:master
 # E: Build LifeCycle
-
-branches:
-  only:
-    - blog-source
